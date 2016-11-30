@@ -1,10 +1,8 @@
 package ru.ifmo.droid_2016.homework3;
 
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
-import android.util.Log;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -29,10 +27,10 @@ public class ExampleInstrumentedTest {
     @Test
     public void testLoad() throws Exception {
         LoadPictureService service = new LoadPictureService();
-        Bitmap bitmap = service.load();
-        if (bitmap != null)
-            Log.d("width and height", String.valueOf(bitmap.getWidth()) + " " + String.valueOf(bitmap.getHeight()));
-        else
-            Log.d("", "nil");
+//        Bitmap bitmap = service.load();
+//        if (bitmap != null)
+//            Log.d("width and height", String.valueOf(bitmap.getWidth()) + " " + String.valueOf(bitmap.getHeight()));
+//        else
+//            Log.d("", "nil");
     }
 }
